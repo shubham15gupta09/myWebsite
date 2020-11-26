@@ -7,15 +7,14 @@ html {
 body {
   font-family: "Source Sans Pro", sans-serif;
   align-items: center;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 1%;
-  padding-bottom: 2%;
-  width: 70%;
+  margin-top: 1%;
+  margin-left: 10%;
+  margin-right: 10%;
+  align-items: center;
+  width: auto;
 }
 .left {
   float: left;
-  width: 50%;
   position: fixed;
 }
 .right {
@@ -23,7 +22,7 @@ body {
   width: 50%;
 }
 .image {
-  padding-left: 5%;
+  padding-left: 10%;
   padding-right: 5%;
 }
 .image-main {
@@ -89,4 +88,21 @@ body {
 .button1:hover {
   background-color: #4caf50;
   color: white;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    width: 100%;
+    align-items: center;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  .left {
+    width: 100%;
+    position: relative;
+  }
+  .right {
+    width: 100%;
+  }
 }
