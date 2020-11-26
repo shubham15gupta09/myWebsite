@@ -90,16 +90,15 @@ body {
 @media screen and (max-width: 600px) {
   body {
     width: 100%;
-    align-items: center;
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
   }
   .left {
-    width: 100%;
+    width: 99%;
     position: relative;
   }
   .right {
-    width: 100%;
+    width: 99%;
   }
 }
