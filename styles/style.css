@@ -90,17 +90,17 @@ body {
 @media screen and (max-width: 600px) {
   body {
     width: 100%;
-    zoom: 90%;
+    zoom: 100%;
   }
   .left {
-    width: 99%;
-    padding-right: 10px;
-    padding-left: 5px;
+    width: 100%;
+    padding-right: 3px;
+    padding-left: 1px;
     position: relative;
   }
   .right {
-    padding-right: 10px;
-    padding-left: 5px;
+    padding-right: 3px;
+    padding-left: 1px;
     width: 99%;
   }
 }
