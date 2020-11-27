@@ -115,6 +115,9 @@ body {
 .tweet::-webkit-scrollbar {
   display: none; /* Chrome */
 }
+.tweet-condition-right {
+  display: none;
+}
 #myBtn {
   display: none;
   position: fixed;
@@ -153,8 +156,11 @@ body {
   .ul {
     line-height: 120%;
   }
-  .tweet {
+  .tweet-condition-left {
     display: none;
+  }
+  .tweet-condition-right {
+    display: inline-block;
   }
   #myBtn {
     font-size: 14px;
