@@ -143,7 +143,7 @@ body {
     margin-right: 3%;
   }
   .left {
-    position: sticky;
+    display: inline-block;
   }
   .right {
     float: left;
