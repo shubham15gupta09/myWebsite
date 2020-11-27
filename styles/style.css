@@ -118,6 +118,9 @@ body {
 .tweet-condition-right {
   display: none;
 }
+.manage-right {
+  display: none;
+}
 #myBtn {
   display: none;
   position: fixed;
@@ -155,6 +158,12 @@ body {
   }
   .ul {
     line-height: 120%;
+  }
+  .manage-left {
+    display: none;
+  }
+  .manage-right {
+    display: inline-block;
   }
   .tweet-condition-left {
     display: none;
