@@ -6,6 +6,7 @@ html {
 body {
   font-family: "Source Sans Pro", sans-serif;
   align-items: center;
+  margin-top: 3%;
   margin-left: 10%;
   margin-right: 10%;
   align-items: center;
@@ -18,13 +19,10 @@ body {
   float: right;
   width: 50%;
 }
-.image {
-  padding-left: 10%;
-  padding-right: 5%;
-}
 .image-main {
   width: 300px;
   border-radius: 50%;
+  margin-left: 12%;
   box-sizing: border-box;
   text-align: center;
   display: block;
@@ -94,6 +92,7 @@ body {
 }
 .button1 {
   background-color: white;
+  margin-left: 38%;
   color: black;
   border-radius: 50px;
   border: 2px solid #4caf50;
