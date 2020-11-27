@@ -120,4 +120,13 @@ body {
     float: left;
     width: 100%;
   }
+  .fa {
+    padding: 12px;
+    font-size: 50px;
+    width: 18px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 60%;
+  }
 }
