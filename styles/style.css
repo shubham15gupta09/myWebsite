@@ -102,7 +102,21 @@ body {
 .tweet::-webkit-scrollbar {
   display: none; /* Chrome */
 }
-
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: 2px solid black;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+}
 @media screen and (max-width: 600px) {
   body {
     margin-top: 1%;
@@ -129,23 +143,10 @@ body {
   .tweet {
     display: none;
   }
-}
-#myBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  font-size: 18px;
-  border: 2px solid black;
-  outline: none;
-  background-color: red;
-  color: white;
-  cursor: pointer;
-  padding: 10px;
-  border-radius: 4px;
-}
+  #myBtn {
+    font-size: 12px;
 
-#myBtn:hover {
-  background-color: #555;
+    padding: 10px;
+    border-radius: 40px;
+  }
 }
