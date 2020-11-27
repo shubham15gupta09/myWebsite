@@ -14,7 +14,7 @@ body {
 }
 .left {
   float: left;
-  position: sticky;
+  position: fixed;
 }
 .right {
   float: right;
@@ -106,6 +106,7 @@ body {
 
   .left {
     float: left;
+    position: sticky;
   }
   .right {
     float: left;
