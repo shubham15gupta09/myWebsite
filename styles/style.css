@@ -95,7 +95,7 @@ body {
   border-radius: 10px;
   overflow-y: scroll;
   border: 2px solid #55acee;
-  height: 200px;
+  height: 250px;
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
