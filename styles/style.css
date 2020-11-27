@@ -6,7 +6,6 @@ html {
 body {
   font-family: "Source Sans Pro", sans-serif;
   align-items: center;
-  margin-top: 1%;
   margin-left: 10%;
   margin-right: 10%;
   align-items: center;
@@ -14,7 +13,6 @@ body {
 }
 .left {
   float: left;
-  position: fixed;
 }
 .right {
   float: right;
@@ -84,12 +82,27 @@ body {
 .button1 {
   background-color: white;
   color: black;
+  border-radius: 50px;
   border: 2px solid #4caf50;
 }
 .button1:hover {
   background-color: #4caf50;
   color: white;
 }
+.tweet {
+  overflow-y: scroll;
+  align-items: center;
+  border-radius: 10px;
+  overflow-y: scroll;
+  border: 2px solid #55acee;
+  height: 200px;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.tweet::-webkit-scrollbar {
+  display: none; /* Chrome */
+}
+
 @media screen and (max-width: 600px) {
   body {
     margin-top: 1%;
@@ -112,5 +125,8 @@ body {
   }
   .ul {
     line-height: 120%;
+  }
+  .tweet {
+    display: none;
   }
 }
