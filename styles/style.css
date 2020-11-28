@@ -5,11 +5,9 @@ html {
 }
 body {
   font-family: "Source Sans Pro", sans-serif;
-  align-items: center;
+  margin-top: 2%;
   margin-left: 10%;
   margin-right: 10%;
-  align-items: center;
-  width: auto;
 }
 .left {
   float: left;
@@ -18,16 +16,10 @@ body {
   float: right;
   width: 50%;
 }
-.image {
-  padding-left: 10%;
-  padding-right: 5%;
-}
 .image-main {
   width: 300px;
   border-radius: 50%;
-  box-sizing: border-box;
-  text-align: center;
-  display: block;
+  border: 3px solid black;
 }
 .ul {
   line-height: 1em;
@@ -42,7 +34,7 @@ body {
   border-radius: 80%;
 }
 .fa:hover {
-  opacity: 0.5;
+  opacity: 0.7;
 }
 .fa-facebook {
   background: #3b5998;
@@ -74,10 +66,10 @@ body {
   color: white;
 }
 .p-date {
-  color: teal;
+  color: rgb(2, 160, 160);
 }
 .p-head {
-  color: grey;
+  color: rgb(90, 86, 86);
 }
 .button {
   background-color: #4caf50;
@@ -105,7 +97,7 @@ body {
 .tweet {
   overflow-y: scroll;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 25px;
   overflow-y: scroll;
   border: 2px solid #55acee;
   height: 250px;
@@ -136,7 +128,7 @@ body {
   padding: 10px;
   border-radius: 4px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   body {
     margin-top: 1%;
     margin-left: 3%;
@@ -177,5 +169,34 @@ body {
     border-radius: 40px;
     bottom: 20px;
     right: 20px;
+  }
+}
+
+.loader {
+  border: 2px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 2px solid #3498db;
+  width: 12px;
+  height: 12px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
