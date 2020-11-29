@@ -208,7 +208,9 @@ html {
   .column {
     width: 100%;
   }
-
+.head {
+  font-size: small;
+}
   #myBtn {
     font-size: 14px;
     padding: 12px;
