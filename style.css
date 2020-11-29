@@ -208,9 +208,21 @@ html {
   .column {
     width: 100%;
   }
-.head {
-  font-size: small;
-}
+
+  .head {
+    font-size: small;
+  }
+
+  .fa {
+    padding: 10px;
+    font-size: 15px;
+    width: 40px;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 2px;
+  }
+
   #myBtn {
     font-size: 14px;
     padding: 12px;
@@ -221,8 +233,8 @@ html {
 
   .main {
     font-family: "Source Sans Pro", sans-serif;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 1%;
   }
 }
