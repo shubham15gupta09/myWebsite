@@ -8,10 +8,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.ul {
-  line-height: 1em;
-}
-
 .p-date {
   color: rgb(2, 160, 160);
 }
@@ -141,7 +137,7 @@ html {
   border-radius: 25px;
   overflow-y: scroll;
   border: 3px solid #55acee;
-  height: 200px;
+  height: 300px;
   width: auto;
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -206,7 +202,9 @@ html {
     text-decoration: none;
     margin: 2px 2px;
   }
-
+  .hi-firend {
+    font-size: x-large;
+  }
   .main {
     margin-left: 2px;
     margin-right: 2px;
