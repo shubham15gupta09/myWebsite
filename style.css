@@ -86,11 +86,11 @@ html {
   color: white;
 }
 .image-main {
-  width: 300px;
   border-radius: 50%;
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
   border: 3px solid black;
 }
 .button {
