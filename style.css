@@ -16,10 +16,7 @@ html {
   color: rgb(90, 86, 86);
 }
 
-.head {
-  text-align: center;
-}
-
+.head,
 .foot {
   text-align: center;
 }
@@ -63,38 +60,31 @@ html {
   background: #3b5998;
   color: white;
 }
-
 .fa-snapchat-ghost {
   background: #fffc00;
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
-
 .fa-twitter {
   background: #55acee;
   color: white;
 }
-
 .fa-google {
   background: #ec0d0d;
   color: white;
 }
-
 .fa-github {
   background: black;
   color: white;
 }
-
 .fa-linkedin {
   background: #007bb5;
   color: white;
 }
-
 .fa-instagram {
   background: rgb(221, 36, 67);
   color: white;
 }
-
 .image-main {
   width: 300px;
   border-radius: 50%;
@@ -103,7 +93,6 @@ html {
   text-align: center;
   border: 3px solid black;
 }
-
 .button {
   background-color: #4caf50;
   border: none;
@@ -117,19 +106,16 @@ html {
   transition-duration: 0.4s;
   cursor: pointer;
 }
-
 .button1 {
   background-color: white;
   color: black;
   border-radius: 50px;
   border: 2px solid #4caf50;
 }
-
 .button1:hover {
   background-color: #4caf50;
   color: white;
 }
-
 .tweet {
   overflow-y: scroll;
   align-items: center;
@@ -153,11 +139,8 @@ html {
 
 .loader {
   border: 2px solid #f3f3f3;
-  align-content: center;
-  align-items: center;
-  text-align: center;
   border-radius: 50%;
-  border-top: 2px solid #3498db;
+  border-top: 5px solid #3498db;
   width: 20px;
   height: 20px;
   -webkit-animation: spin 2s linear infinite;
