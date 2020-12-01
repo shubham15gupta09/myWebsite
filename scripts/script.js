@@ -15,7 +15,7 @@ function topFunction() {
 
 function fetchView() {
   var data = document.getElementById("views");
-  data.innerHTML = `<br/><div class="loader load"></div>` ;
+  data.innerHTML = `<br/><div class="loader"></div>` ;
   fetch('https://viewcount.azurewebsites.net//checkcount')
   .then(result => result.json())
   .then(result => {
